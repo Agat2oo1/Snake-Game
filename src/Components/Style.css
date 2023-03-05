@@ -1,0 +1,57 @@
+body{
+    background-color: cadetblue;
+}
+.main{
+    text-align: center;
+}
+.gameHeader{
+    color: greenyellow;
+}
+.gameOverHeader{
+    color: red;
+}
+.container{
+    padding: 0;
+    margin: auto;
+    width: 350px;
+    display:grid;
+    grid-template-columns: 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px;
+    row-gap: 0px;
+    column-gap: 0px;
+    grid-auto-flow: row;
+}
+.box{
+    border: 2px solid black;
+    height:30px;
+}
+.snakeBox{
+    border: 2px solid black;
+    background-color: greenyellow;
+    height:30px;
+}
+.appleBox{
+    border: 2px solid black;
+    background-color: darkred;
+    height:30px;
+}
+.directionContainer{
+
+}
+.directionUp{
+    display: block;
+    margin: 10px auto 1px auto;
+    width: 50px;
+    height: 40px;
+    border: 2px solid greenyellow;
+    background-color: cadetblue;
+    color: greenyellow;
+
+}
+.direction{
+    width: 50px;
+    height: 40px;
+    border: 2px solid greenyellow;
+    background-color: cadetblue;
+    color: greenyellow;
+    margin-left: 1px;
+}
